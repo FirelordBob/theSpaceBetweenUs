@@ -1,3 +1,3 @@
-if global.currentHealth = 0 {
-	game_end()
+if currentHealth = 0 {
+	room_goto(0)
 }

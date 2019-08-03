@@ -3,4 +3,5 @@
 currentX = x
 currentY = y
 maxHealth = 3;
-global.currentHealth = maxHealth;
+currentHealth = maxHealth;
+friendArray = []
