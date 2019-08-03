@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "5aea8dcc-0780-4b81-b5b8-2671c9c29316",
+            "Value": {
+                "id": "89cdab07-4931-45e6-9495-97226cac6f10",
+                "resourcePath": "objects\\obj_spacemine\\obj_spacemine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e8f7e3a-6077-4083-ad90-a85d060235ca",
             "Value": {
                 "id": "29671e21-ed36-42e1-a28c-10b49ce0a885",
@@ -524,6 +532,14 @@
                 "id": "b553e3d0-2526-461b-92e9-e95756e673cf",
                 "resourcePath": "views\\db0e3208-e2a4-47ab-be34-e3f45a588315.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1064078-1730-4d78-88cc-9afe41947b62",
+            "Value": {
+                "id": "480b0111-83f2-4f27-a34f-6a54e2863c56",
+                "resourcePath": "sprites\\spr_spacemine\\spr_spacemine.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
