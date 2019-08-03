@@ -1,9 +1,16 @@
 /// @description Set cool stuff here
 
+currentX = x
+currentY = y
+
+
 spinspeed = random_range(-3,3);
 if abs(spinspeed) < 0.2 {
 	spinspeed = spinspeed * 2;
 }
+angle = 0;
 
-hspeed = random_range(-0.3,0.3);
-vspeed = random_range(-0.3,0.3);
+speedMax = 1
+
+hspeed = random_range(-speedMax,speedMax);
+vspeed = random_range(-speedMax,speedMax);
