@@ -4,6 +4,6 @@ angle = 0
 range = 300
 cooldown = 100
 ready = 1
-maxHealth = 10
+maxHealth = 30
 currentHealth = maxHealth
 deathtimer = 60

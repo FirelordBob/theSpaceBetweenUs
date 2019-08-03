@@ -9,8 +9,8 @@ if(instance_exists(myBullet)){
 	hspeed += hspeedChange;
 
 	//Change player speed
-	myPlayer.vspeed += vspeedChange;
-	myPlayer.hspeed += hspeedChange;
+	myPlayer.vspeed += vspeedChange*1.5;
+	myPlayer.hspeed += hspeedChange*1.5;
 
 	//Change bullet speed
 	myBullet.vspeed -= 4*(sin(facing*pi/180));

@@ -21,8 +21,8 @@ if(distance_to_object(player) < range && !firing)
 		alarm_set(2,fireTime)
 		with(instance_create_depth(x + lengthdir_x(sprite_width/4,angle),y + lengthdir_y(sprite_width/4,angle),depth-1,obj_sound_wave))
 		{
+			other.bullet = id
 			direction = other.angle
-			speed = 2
 			image_xscale = .6
 			image_yscale = .3
 			image_angle = other.angle
