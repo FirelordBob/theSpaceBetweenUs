@@ -13,5 +13,6 @@ gorillaFriend = 0;
 turtleFriend = 0;
 roboGazelleFriend = 0;
 armadilloFriend = 0;
+elephantFriend = 0;
 newtFriend = 0;
 newtStuck = 0;

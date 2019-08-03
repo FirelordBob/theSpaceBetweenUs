@@ -2,7 +2,7 @@
     "id": "b367295b-9b5c-4ddf-8d01-2f10e2e3f995",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_newt",
+    "name": "obj_friend_newt",
     "eventList": [
         {
             "id": "919993e4-e5b5-4b76-adea-4b2bc7eb96b6",
