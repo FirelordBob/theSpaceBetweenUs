@@ -19,6 +19,8 @@ maxHealth = 1
 currentHealth = maxHealth
 dying = 0;
 
+explosionType = obj_explosion_severe
+
 myparticlesystem = noone;
 particle1 = part_type_create();
 part_type_sprite(particle1, spr_asteroid, 0, 0, 1);
@@ -28,3 +30,6 @@ part_type_scale(particle1, 1, 1);
 part_type_speed(particle1, 1, 2, 0, 0);
 part_type_direction(particle1, 0, 359, 0, 20);
 part_type_life(particle1, room_speed*2,room_speed*3);
+
+radius = 0;
+width = 0;
