@@ -12,3 +12,4 @@ maxSpeed = 4
 gorillaFriend = 0;
 turtleFriend = 0;
 roboGazelleFriend = 0;
+armadilloFriend = 0;
