@@ -7,4 +7,4 @@ shorten = 0
 hit = 0
 moveSpeed = 5
 speed = moveSpeed
-frequency = 0
+frequency = -20
