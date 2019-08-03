@@ -8,9 +8,19 @@ if(canIFire){
 	}
 	//If this is the first frame of the new charge, we need to create a bullet to charge
 	if myBullet == noone {
-		myBullet = instance_create_depth(x,y,1,obj_blast);
+		myBullet = instance_create_depth(x,y,depth-1,obj_blast);
 		myBullet.myGun = self;
 	}
-	myBullet.image_xscale = gunPower/2.5;
-	myBullet.image_yscale = gunPower/2.5;
+	if(instance_exists(myBullet))
+	{
+		myBullet.image_xscale = gunPower/2.5;
+		myBullet.image_yscale = gunPower/2.5;
+		myBullet.damage = power((gunPower*2),3)
+	}
+	else
+	{
+		alarm_set(1,cooldownTimer);
+		myBullet = noone
+		canIFire = 0
+	}
 }

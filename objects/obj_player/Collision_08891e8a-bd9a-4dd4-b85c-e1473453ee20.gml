@@ -6,5 +6,5 @@ if(!invincible){
 	currentHealth--
 	invincible = 1;
 	alarm_set(1,invincibilityTimer)
-	speed+=2
+	speed+=1
 }

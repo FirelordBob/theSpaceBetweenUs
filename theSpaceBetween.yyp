@@ -95,11 +95,27 @@
             }
         },
         {
+            "Key": "2ca402b2-7247-4ec1-aeee-3d17e9762f5b",
+            "Value": {
+                "id": "c9721b90-93cf-44df-bae7-5be0c2a17442",
+                "resourcePath": "sprites\\spr_turret\\spr_turret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "313ffc9b-47ae-4ba4-90fc-70f3dcac90e9",
             "Value": {
                 "id": "d973c88a-0877-4ed8-8c87-d2df88003e14",
                 "resourcePath": "sprites\\spr_asteroid\\spr_asteroid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "331ebc52-8901-46cc-a637-e61a429176ac",
+            "Value": {
+                "id": "4f27590c-05fb-41ac-9a38-17111ad12a48",
+                "resourcePath": "objects\\obj_turret_bullet\\obj_turret_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -147,6 +163,14 @@
             "Value": {
                 "id": "1b93b6a8-bcb7-4f44-9ffa-2a7f23702f43",
                 "resourcePath": "sprites\\spr_forcefield\\spr_forcefield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "431c0591-fa16-4d29-9aef-3301746629d7",
+            "Value": {
+                "id": "5af638ca-b00c-4afa-84a3-b1d566ecc043",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "7653f8af-0485-4648-bc45-78992df42f9e",
+            "Value": {
+                "id": "7a76d37a-c057-43bd-b5b5-78bf86c9a89d",
+                "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7adda621-3ef1-4fd7-b5f3-881b7f0ed53b",
             "Value": {
                 "id": "5cda9b23-6a00-4546-9374-fbd9ecbd956f",
@@ -284,6 +316,14 @@
                 "id": "603d156c-e6b0-42df-bb8e-616f877129d6",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a6f6c085-7de3-4508-a887-86487dccff76",
+            "Value": {
+                "id": "bb5099d9-2e22-46b8-88ac-73dc6a753470",
+                "resourcePath": "objects\\obj_turret\\obj_turret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
