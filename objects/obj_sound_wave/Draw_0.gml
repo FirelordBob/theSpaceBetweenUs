@@ -36,6 +36,10 @@ for(var i=0; i<diameter/2; i++) {
 			hit = 1
 			alarm_set(0,20)
 		}
+	if(position_meeting(lastX,lastY,obj_friend))
+		with(instance_position(lastX,lastY,obj_friend))
+			if(collected)
+				motion_add(other.direction,other.moveSpeed)
     lastX = dx3;
     lastY = dy3;
 	
