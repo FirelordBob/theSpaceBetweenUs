@@ -17,6 +17,7 @@ vspeed = random_range(-speedMax,speedMax);
 deathtimer = 60
 maxHealth = 10
 currentHealth = maxHealth
+dying = 0;
 
 myparticlesystem = noone;
 particle1 = part_type_create();

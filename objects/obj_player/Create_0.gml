@@ -7,6 +7,6 @@ invincibilityTimer = 60;
 maxHealth = 10;
 currentHealth = maxHealth;
 friendArray = []
-maxSpeed = 6
+maxSpeed = 4
 
 gorillaFriend = 0;
