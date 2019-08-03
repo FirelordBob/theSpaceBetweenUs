@@ -1,0 +1,1 @@
+myGun = noone;
