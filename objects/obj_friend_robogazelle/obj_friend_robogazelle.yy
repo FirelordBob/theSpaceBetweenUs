@@ -2,7 +2,7 @@
     "id": "84f0ec52-ec2a-469c-89b4-5942a67f9977",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_robogazelle",
+    "name": "obj_friend_robogazelle",
     "eventList": [
         {
             "id": "8a27e242-d88d-43a7-bd97-1bc8ab6c8b00",
