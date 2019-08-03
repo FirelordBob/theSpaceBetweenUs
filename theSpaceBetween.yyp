@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "856b20d9-1af4-467d-8372-9debd2c43867",
+            "Value": {
+                "id": "9a202a1c-7b22-43b9-bff0-4e751d344fce",
+                "resourcePath": "sprites\\spr_turtle\\spr_turtle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88580ed9-0d7e-47b3-9cfd-9bdfa4dff9df",
             "Value": {
                 "id": "4b50b509-3af0-4d4e-a30a-b2dc5773168d",
