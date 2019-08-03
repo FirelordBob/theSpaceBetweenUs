@@ -12,3 +12,13 @@ if(speed > 3)
 	speed = 3
 	
 }
+
+if(bounce(obj_turret))
+	with(instance_nearest(x,y,obj_turret))
+		currentHealth--
+if(bounce(obj_sound_turret))
+	with(instance_nearest(x,y,obj_sound_turret))
+		currentHealth--
+if(bounce(obj_asteroid))
+	with(instance_nearest(x,y,obj_asteroid))
+		currentHealth--
