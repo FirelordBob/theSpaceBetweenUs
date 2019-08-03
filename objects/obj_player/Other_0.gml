@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-currentX = x
-currentY = y
+move_wrap(1,1,0)
