@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "a0badee4-90a6-4706-9e76-1ca53acd40bb",
+            "Value": {
+                "id": "82b819f4-ea5f-4f86-bf8c-6a0a34136d18",
+                "resourcePath": "objects\\obj_explosion_severe\\obj_explosion_severe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "603d156c-e6b0-42df-bb8e-616f877129d6",
