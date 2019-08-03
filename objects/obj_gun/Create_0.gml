@@ -2,10 +2,10 @@ myPlayer = noone;
 facing = 0;
 gunPowerInc = 0.02;
 gunPowerMaximum = 1;
-gunPowerMinimum = 0.2;
+gunPowerMinimum = 0.5;
 
 canIFire = 1;
-cooldownTimer = 30;
+cooldownTimer = 20;
 
 gunPower = gunPowerMinimum;
 
