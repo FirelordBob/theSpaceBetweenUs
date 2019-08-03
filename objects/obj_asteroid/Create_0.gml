@@ -2,8 +2,8 @@
 
 currentX = x
 currentY = y
-
-
+lastSpeed = 0
+explosionType = obj_explosion
 spinspeed = random_range(-3,3);
 if abs(spinspeed) < 0.2 {
 	spinspeed = spinspeed * 2;

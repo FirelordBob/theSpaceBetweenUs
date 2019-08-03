@@ -10,6 +10,7 @@ if(canIFire){
 	if myBullet == noone {
 		myBullet = instance_create_depth(x,y,depth-1,obj_blast);
 		myBullet.myGun = self;
+		myBullet.freeze = myPlayer.snakeFriend
 	}
 	if(instance_exists(myBullet))
 	{

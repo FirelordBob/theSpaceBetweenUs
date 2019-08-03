@@ -3,5 +3,13 @@
 if dying == 0 {
 	instance_destroy(other)
 	currentHealth -= other.damage
-
+	if(other.freeze)
+	{
+		if(speed != 0)
+		{
+			lastSpeed = speed
+			speed = 0
+		}
+		alarm_set(2,40 + alarm_get(2))
+	}
 }

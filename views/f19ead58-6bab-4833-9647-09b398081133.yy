@@ -10,7 +10,8 @@
         "47c3037c-e0e8-45e1-9caf-4c37b714fa33",
         "af56a7d4-823e-4b55-ba15-5d9441f4382a",
         "84f0ec52-ec2a-469c-89b4-5942a67f9977",
-        "9760d403-4fe0-4e0f-ae5b-e57d1c052e78"
+        "9760d403-4fe0-4e0f-ae5b-e57d1c052e78",
+        "6004db94-99dd-408c-863c-a04f1f44236a"
     ],
     "filterType": "GMObject",
     "folderName": "friends",
