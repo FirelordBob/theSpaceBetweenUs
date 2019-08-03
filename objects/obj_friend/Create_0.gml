@@ -5,7 +5,7 @@ with(obj_player)
 	other.player = id
 	
 targetAngle = 0
-targetDist = 64
+targetDist = 96
 used = 0
 alarm_set(0,1)
 moveSpeed = 1
