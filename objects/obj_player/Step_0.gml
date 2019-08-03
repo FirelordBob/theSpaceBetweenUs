@@ -9,5 +9,11 @@ if(bounce(obj_forcefield)) {
 		alarm_set(1,invincibilityTimer)
 	}	
 }
-bounce(obj_ground);
+if newtFriend && newtStuck == 0 {
+	if stick(obj_ground) {
+		newtStuck = 1;
+	}
+} else {
+	bounce(obj_ground);
+}
 speed = clamp(speed,0,maxSpeed)

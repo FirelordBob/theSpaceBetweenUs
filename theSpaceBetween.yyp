@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "013c0389-4f8f-43e8-9b50-d9845a3af769",
+            "Value": {
+                "id": "0b136ede-22e0-441d-a208-aea5ff2f04f9",
+                "resourcePath": "scripts\\stick\\stick.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02b2861c-ab10-4194-81c2-8e3ba1511d11",
             "Value": {
                 "id": "3e94671e-0c2b-49c7-88df-f893152f793b",
@@ -592,7 +600,8 @@
         }
     ],
     "script_order": [
-        "0fe81705-e713-4923-ae89-eb78c05e3b62"
+        "0fe81705-e713-4923-ae89-eb78c05e3b62",
+        "013c0389-4f8f-43e8-9b50-d9845a3af769"
     ],
     "tutorial": ""
 }
