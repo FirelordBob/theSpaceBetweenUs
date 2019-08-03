@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "06f752db-806a-406c-80ac-ce95f90b4314",
+            "Value": {
+                "id": "7603e3e4-e94e-47ca-9500-e7b9feed8ab6",
+                "resourcePath": "rooms\\roomPause\\roomPause.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0fe81705-e713-4923-ae89-eb78c05e3b62",
             "Value": {
                 "id": "69dbe436-7536-4540-b813-caab55696d99",
