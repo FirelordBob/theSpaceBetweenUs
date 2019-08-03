@@ -13,8 +13,8 @@ if(instance_exists(myBullet)){
 	myPlayer.hspeed += hspeedChange;
 
 	//Change bullet speed
-	myBullet.vspeed -= 2*vspeedChange;
-	myBullet.hspeed -= 2*hspeedChange;
+	myBullet.vspeed -= 8*sin(facing*pi/180);
+	myBullet.hspeed -= 8*-cos(facing*pi/180);
 
 	//Release bullet from my ownership
 	myBullet.myGun = noone;
