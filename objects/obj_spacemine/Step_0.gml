@@ -29,7 +29,7 @@ if(currentHealth <= 0 && alarm_get(1) = -1)
 }
 
 with obj_player {
-	if distance_to_point(other.x,other.y) < other.sprite_width*2 {
+	if distance_to_point(other.x,other.y) < other.radius {
 		other.currentHealth = 0;
 	}
 }
