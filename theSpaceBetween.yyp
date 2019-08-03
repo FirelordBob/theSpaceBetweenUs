@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "51f99139-95c3-48cc-b032-42bb4951a902",
+            "Value": {
+                "id": "a85ddf11-6c11-4ea6-87e7-6d22ea742f0c",
+                "resourcePath": "sprites\\spr_turret\\spr_turret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f2856e2-1047-4e1c-a91a-97fe9f8c0b81",
             "Value": {
                 "id": "9c4e2ca5-c349-4c0f-a3f5-97c421bf6dc3",
