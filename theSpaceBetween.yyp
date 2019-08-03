@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1afba92b-3542-4e41-ad0b-c7758d4e1d73",
+            "Value": {
+                "id": "8d67d5e0-d0be-44e0-a25d-5cc73bf2e409",
+                "resourcePath": "sprites\\spr_forcefield_disabled\\spr_forcefield_disabled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f3929c6-adec-4483-af09-24b41d358327",
             "Value": {
                 "id": "ae4b5110-3f4e-4c47-833f-85fc0e99bd51",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "4e5da972-fd05-4189-8353-09d2e7dfce1a",
+            "Value": {
+                "id": "227f9751-d95c-4cae-b015-0fd95e7394e6",
+                "resourcePath": "sprites\\spr_robogazelle\\spr_robogazelle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e8f7e3a-6077-4083-ad90-a85d060235ca",
             "Value": {
                 "id": "29671e21-ed36-42e1-a28c-10b49ce0a885",
@@ -308,6 +324,14 @@
                 "id": "616cd68b-fc53-4c15-acb5-011043e63890",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "84f0ec52-ec2a-469c-89b4-5942a67f9977",
+            "Value": {
+                "id": "bcf51e90-1e34-497e-89e8-ba55eb0ae58b",
+                "resourcePath": "objects\\obj_robogazelle\\obj_robogazelle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -403,6 +427,14 @@
             "Value": {
                 "id": "b3784e20-3351-4eed-aa33-8557dc3cbdb7",
                 "resourcePath": "objects\\obj_ground\\obj_ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba25b3a8-3004-480c-bb0e-c603027a3b60",
+            "Value": {
+                "id": "b38c91d9-7576-4e47-afde-f2f00608a851",
+                "resourcePath": "objects\\obj_forcefield_disabled\\obj_forcefield_disabled.yy",
                 "resourceType": "GMObject"
             }
         },
