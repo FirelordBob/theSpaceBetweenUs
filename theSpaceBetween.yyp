@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "57b16f0e-9c0f-4b99-b75f-2b6acf0c9a6d",
+            "Value": {
+                "id": "59a254c2-966c-4f1a-a3af-ef34ce6479f7",
+                "resourcePath": "objects\\obj_damageable\\obj_damageable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e8f7e3a-6077-4083-ad90-a85d060235ca",
             "Value": {
                 "id": "29671e21-ed36-42e1-a28c-10b49ce0a885",
