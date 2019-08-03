@@ -8,10 +8,8 @@ draw_set_alpha(.4)
 for(var i = 0; i < starCount; i++)
 {
 	draw_point(starArrayX[i],starArrayY[i])
-	if(!(global.freeze && bulletTime))
-		starArrayY[i]+= 1 - bulletTime
-	if(starArrayY[i] > room_height+50)
-		starArrayY[i] = -50
+	starArrayX[i] = wrap(starArrayX[i],room_width)
+	starArrayY[i] = wrap(starArrayY[i],room_height)
 }
 draw_set_alpha(.6)
 for(var i = 0; i < starCountMid; i++)
@@ -20,11 +18,14 @@ for(var i = 0; i < starCountMid; i++)
 	if(irandom(700) = 0)
 		twinkle = 1
 	draw_circle(starArrayMidX[i],starArrayMidY[i],1+twinkle,0)
-	if(!(global.freeze && bulletTime))
-		starArrayMidY[i]+=1.5 - bulletTime
-	if(starArrayMidY[i] > room_height+50)
-		starArrayMidY[i] = -50
 
+	with(obj_player)
+	{
+		other.starArrayMidX[i] -= hspeed/24
+		other.starArrayMidY[i] -= vspeed/24
+	}
+	starArrayMidX[i] = wrap(starArrayMidX[i],room_width)
+	starArrayMidY[i] = wrap(starArrayMidY[i],room_height)
 }
 draw_set_alpha(.8)
 for(var i = 0; i < starCountLarge; i++)
@@ -33,10 +34,12 @@ for(var i = 0; i < starCountLarge; i++)
 	if(irandom(700) = 0)
 		twinkle = 2
 	draw_circle(starArrayLargeX[i],starArrayLargeY[i],2+twinkle,0)
-	if(!(global.freeze && bulletTime))
-		starArrayLargeY[i]+=2 - bulletTime*1.5
-	if(starArrayLargeY[i] > room_height+50)
-		starArrayLargeY[i] = -50
-
+	with(obj_player)
+	{
+		other.starArrayLargeX[i] -= hspeed/20
+		other.starArrayLargeY[i] -= vspeed/20
+	}
+	starArrayLargeX[i] = wrap(starArrayLargeX[i],room_width)
+	starArrayLargeY[i] = wrap(starArrayLargeY[i],room_height)
 }
 draw_set_alpha(1)

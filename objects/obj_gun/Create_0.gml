@@ -5,7 +5,7 @@ gunPowerMaximum = 1;
 gunPowerMinimum = 0.5;
 mySize = 16
 canIFire = 1;
-cooldownTimer = 20;
+cooldownTimer = 40;
 
 gunPower = gunPowerMinimum;
 
