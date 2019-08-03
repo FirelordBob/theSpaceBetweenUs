@@ -14,4 +14,10 @@ if(currentHealth <= 0)
 		}
 	}
 	alarm_set(1,deathtimer)	
+	
+	if myparticlesystem == noone {
+		myparticlesystem = part_system_create();
+		part_system_depth(myparticlesystem, -2 );
+		part_particles_create(myparticlesystem, x, y, particle1, 5);
+	}
 }
