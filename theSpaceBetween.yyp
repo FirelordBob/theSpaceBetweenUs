@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "2279dca9-624f-4919-a6fb-dca77f284edc",
+            "Value": {
+                "id": "b718ecf9-5fc7-401b-88d8-dc725ce4d8a2",
+                "resourcePath": "objects\\obj_blast\\obj_blast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "233b97c0-6c31-494d-88ba-a0350abbfecf",
             "Value": {
                 "id": "f031f9f5-fa82-4439-b16e-b63c7613609b",
                 "resourcePath": "views\\233b97c0-6c31-494d-88ba-a0350abbfecf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "25035244-e0ac-44a3-bb18-3697c89f4ed5",
+            "Value": {
+                "id": "be5dfb23-f92f-4023-b69a-8ed04a14c8f0",
+                "resourcePath": "objects\\obj_gun\\obj_gun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -92,6 +108,14 @@
                 "id": "ef7ceb92-dc59-40f1-b415-e733ee571c06",
                 "resourcePath": "views\\6a1ec72c-f084-4330-9c40-21ac4d58e7da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72dcbc21-584c-4284-b6fd-42900fcc843f",
+            "Value": {
+                "id": "568085fe-04e3-47ba-b406-d3839ba88694",
+                "resourcePath": "sprites\\spr_gun\\spr_gun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +228,14 @@
                 "id": "c0846ddf-8d1d-460d-a746-b4932d2a895f",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e5740509-573a-49c4-9720-6c55080ffc82",
+            "Value": {
+                "id": "d977f611-34d5-49dd-bdcf-f14d5d540a0d",
+                "resourcePath": "sprites\\spr_blast\\spr_blast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
