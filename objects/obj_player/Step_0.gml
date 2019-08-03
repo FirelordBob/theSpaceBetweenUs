@@ -9,4 +9,5 @@ if(bounce(obj_forcefield)) {
 		alarm_set(1,invincibilityTimer)
 	}	
 }
+bounce(obj_ground);
 speed = clamp(speed,0,maxSpeed)

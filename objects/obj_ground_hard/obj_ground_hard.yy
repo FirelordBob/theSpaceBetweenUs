@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ground_hard",
     "eventList": [
-        
+        {
+            "id": "f185926c-ae41-467b-af7a-b1d50ed97710",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "48bd8b6c-f907-4db1-89e5-47dd58cd04dc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

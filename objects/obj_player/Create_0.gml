@@ -8,3 +8,5 @@ maxHealth = 10;
 currentHealth = maxHealth;
 friendArray = []
 maxSpeed = 6
+
+gorillaFriend = 1;
