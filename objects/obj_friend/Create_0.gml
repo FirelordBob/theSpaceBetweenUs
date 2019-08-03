@@ -10,6 +10,8 @@ used = 0
 alarm_set(0,1)
 moveSpeed = 1
 mySpeed = 1
-gravity = .1
+
 currentX = x
 currentY = y
+
+collected = 0

@@ -9,3 +9,8 @@ with(other)
 	motion_add(dir,3)
 
 motion_add(dir+180,3)
+if(!collected)
+{
+	collected = 1
+	other.friendArray[array_length_1d(other.friendArray)] = id
+}

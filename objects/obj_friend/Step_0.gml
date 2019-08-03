@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(collected)
+{
+gravity = .1
 var dist = distance_to_object(player)
 var playerDir = point_direction(x,y,player.x,player.y)
 
@@ -7,3 +10,5 @@ gravity_direction = point_direction(x,y,player.x +lengthdir_x(targetDist,playerD
 
 if(speed > 1.5)
 	speed = 1.5
+	
+}
