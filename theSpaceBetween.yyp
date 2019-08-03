@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "b367295b-9b5c-4ddf-8d01-2f10e2e3f995",
+            "Value": {
+                "id": "bb110dbf-f704-4d5a-a716-323483a06a8a",
+                "resourcePath": "objects\\obj_newt\\obj_newt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b70e1baa-9acc-48f4-819f-7f5c07f7c1fe",
             "Value": {
                 "id": "9d4c8a15-9831-4056-8373-b37b7e83d606",
