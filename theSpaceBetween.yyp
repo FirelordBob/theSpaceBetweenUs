@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "4b1b420f-63e3-4010-9a28-b766881ed015",
+            "Value": {
+                "id": "4ff55a1c-18d0-479a-9eed-0019190834fb",
+                "resourcePath": "objects\\obj_sound_wave\\obj_sound_wave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c4bd027-9250-4541-b466-fa350149fa68",
             "Value": {
                 "id": "05da0c68-c92c-4a85-aaa1-4e4f77ae7f10",
@@ -276,6 +284,14 @@
                 "id": "616cd68b-fc53-4c15-acb5-011043e63890",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "88580ed9-0d7e-47b3-9cfd-9bdfa4dff9df",
+            "Value": {
+                "id": "4b50b509-3af0-4d4e-a30a-b2dc5773168d",
+                "resourcePath": "objects\\obj_sound_turret\\obj_sound_turret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
