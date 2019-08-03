@@ -31,5 +31,5 @@ part_type_speed(particle1, 1, 2, 0, 0);
 part_type_direction(particle1, 0, 359, 0, 20);
 part_type_life(particle1, room_speed*2,room_speed*3);
 
-radius = 0;
-width = 0;
+radius = sprite_width*2;
+width = 3;
