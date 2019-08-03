@@ -6,3 +6,4 @@ if abs(x - other.x) > 31 {
 if abs(y - other.y) > 31 {
 	vspeed = -vspeed * other.bounceMultiplier;
 }
+currentHealth -= 1;
