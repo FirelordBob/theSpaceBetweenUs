@@ -1,0 +1,1 @@
+bounceMultiplier = 0.9

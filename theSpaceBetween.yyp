@@ -103,11 +103,27 @@
             }
         },
         {
+            "Key": "424ded53-42b7-426d-a3e8-69f222b33266",
+            "Value": {
+                "id": "1b93b6a8-bcb7-4f44-9ffa-2a7f23702f43",
+                "resourcePath": "sprites\\spr_forcefield\\spr_forcefield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "464c729a-e29c-4d7c-a490-f7971642a0a2",
             "Value": {
                 "id": "fa474fbc-34dc-466d-b061-79eb9d1b0bc8",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4c4bd027-9250-4541-b466-fa350149fa68",
+            "Value": {
+                "id": "05da0c68-c92c-4a85-aaa1-4e4f77ae7f10",
+                "resourcePath": "objects\\obj_forcefield\\obj_forcefield.yy",
+                "resourceType": "GMObject"
             }
         },
         {
