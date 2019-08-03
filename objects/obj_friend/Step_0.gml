@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(collected)
 {
-gravity = .1
+gravity = .2
 var dist = distance_to_object(player)
 var playerDir = point_direction(x,y,player.x,player.y)
 
