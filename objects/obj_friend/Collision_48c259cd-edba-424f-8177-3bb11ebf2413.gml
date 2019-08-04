@@ -6,4 +6,9 @@ if(!collected)
 	image_xscale = 1
 	image_yscale = 1
 	other.friendArray[array_length_1d(other.friendArray)] = object_index
+	with(instance_create_depth(0,0,0,obj_dialogue))
+	{
+		dialogue = other.dialogue
+		name = other.name
+	}
 }
