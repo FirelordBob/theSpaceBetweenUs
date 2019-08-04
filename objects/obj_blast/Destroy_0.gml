@@ -8,4 +8,3 @@ with(instance_create_depth(x,y,depth,obj_explosion))
 	direction = other.direction
 	image_angle = other.image_angle
 }
-audio_play_sound(snd_lazerdies,180,0);
