@@ -52,5 +52,5 @@ if(!myPlayer.elephantFriend && instance_exists(myBullet)){
 	//Set cooldown timer
 	canIFire = 0;
 	alarm_set(1,cooldownTimer);
-	room_speed = halfSpeed*1.5
+	room_speed = fullSpeed
 }

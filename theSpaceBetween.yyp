@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1ae16624-0833-4c02-966d-49fcad9e2101",
+            "Value": {
+                "id": "a78d0c52-78f6-445d-a0b9-a62079f4132b",
+                "resourcePath": "sprites\\spr_sound_turret\\spr_sound_turret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1afba92b-3542-4e41-ad0b-c7758d4e1d73",
             "Value": {
                 "id": "8d67d5e0-d0be-44e0-a25d-5cc73bf2e409",

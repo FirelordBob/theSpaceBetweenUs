@@ -19,3 +19,5 @@ if(myBullet != noone)
 		}
 	}	
 }
+if(room_speed > fullSpeed)
+	room_speed -=.1
