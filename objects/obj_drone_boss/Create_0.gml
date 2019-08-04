@@ -4,8 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-maxHealth = 300
-moveSpeed = 2.5
+maxHealth = 250
+moveSpeed = 2
 speed = moveSpeed
 
 currentHealth = maxHealth
