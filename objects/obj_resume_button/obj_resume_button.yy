@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_resume_button",
     "eventList": [
-        
+        {
+            "id": "1b96baf9-c85b-4154-8ecd-1713d44c918f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "5148e89d-2fa1-4c6d-89f1-bb481999b264"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
