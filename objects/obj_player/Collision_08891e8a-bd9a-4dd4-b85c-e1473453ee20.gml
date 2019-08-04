@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!invincible){
+if(!invincible && other.dying == 0){
 	move_bounce_all(0)
 	currentHealth--
 	invincible = 1;

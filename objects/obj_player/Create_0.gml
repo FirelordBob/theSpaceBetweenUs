@@ -22,8 +22,5 @@ boss2Defeated = 0
 friction = .006
 depth = -5
 
-audiogroup = audio_create_sync_group(true);
-sg[0] = snd_cat
-audio_play_in_sync_group(audiogroup, sg[0]);
-audio_start_sync_group(audiogroup);
+track = audio_play_sound(snd_cat,0,1)
 

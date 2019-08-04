@@ -4,5 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-targetDist = 128
-song = snd_armadillo
+song = snd_newt
