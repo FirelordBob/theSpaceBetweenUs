@@ -19,6 +19,8 @@ maxHealth = 10
 currentHealth = maxHealth
 dying = 0;
 
+asteroidBounceAmount = 1
+
 myparticlesystem = noone;
 particle1 = part_type_create();
 part_type_sprite(particle1, spr_asteroid, 0, 0, 1);
