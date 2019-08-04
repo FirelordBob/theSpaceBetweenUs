@@ -1,1 +1,1 @@
-room_goto(room5)
+room_goto(room0)
