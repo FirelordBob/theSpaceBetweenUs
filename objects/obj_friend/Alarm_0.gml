@@ -7,4 +7,6 @@ if(!collected)
 	image_yscale = 2
 }
 
-audio_sound_set_track_position(track,audio_sound_get_track_position(player.track))
+with player {
+	sg[array_length_1d(sg)] = audio_play_in_sync_group(audiogroup, snd_elephant);
+}
