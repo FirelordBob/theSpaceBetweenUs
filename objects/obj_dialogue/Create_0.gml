@@ -7,7 +7,7 @@ yy = display_get_gui_height() - sprite_height*1.5
 
 dialogue = []
 spriteNum = 7
-name = ""
+name = "Tippy"
 dialogueCount = 0
 closing = 0
 readTime = 200

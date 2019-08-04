@@ -8,7 +8,7 @@ maxHealth = 10;
 currentHealth = maxHealth;
 friendArray = []
 maxSpeed = 6
-
+angle = 0
 gorillaFriend = 0;
 turtleFriend = 0;
 roboGazelleFriend = 0;
