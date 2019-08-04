@@ -1,4 +1,4 @@
-if currentHealth = 0 {
+if currentHealth <= 0 {
 	game_restart()
 }
 
