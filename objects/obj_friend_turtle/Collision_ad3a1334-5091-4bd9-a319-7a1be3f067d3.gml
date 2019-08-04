@@ -6,6 +6,18 @@ if(!collected)
 	{
 		owner = player		
 	}
+	dialogue[0] = "Hel.."
+	dialogue[1] = "..."
+	dialogue[2] = "..lo"
+	dialogue[3] = "..."
+	dialogue[4] = "I'm"
+	dialogue[5] = "pleased"
+	dialogue[6] = "to"
+	dialogue[7] = "meet"
+	dialogue[8] = "..."
+	dialogue[9] = "you"
+	
+	name = "Tabitha"
 }
 // Inherit the parent event
 event_inherited();

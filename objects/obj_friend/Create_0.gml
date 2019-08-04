@@ -13,3 +13,5 @@ currentX = x
 currentY = y
 collected = 1
 depth = -5
+dialogue = []
+name = ""
