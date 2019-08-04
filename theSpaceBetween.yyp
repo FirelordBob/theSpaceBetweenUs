@@ -631,6 +631,22 @@
             }
         },
         {
+            "Key": "622bf95f-a6cb-4144-854c-cac5f9c03d3b",
+            "Value": {
+                "id": "d7eaab38-ebad-475a-949b-005242c10bd3",
+                "resourcePath": "sounds\\snd_dronebosssayshello\\snd_dronebosssayshello.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6242884c-cfac-4113-b872-fcec7f2c4c20",
+            "Value": {
+                "id": "3d9b0bd8-ad15-4123-ae89-31bb6ea2cbd1",
+                "resourcePath": "objects\\obj_drone_boss\\obj_drone_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64233ccc-b58b-4aba-bc4c-5eef299c3a43",
             "Value": {
                 "id": "d50e5fc7-1fa6-41e2-8c30-9526c523a7f2",
@@ -1084,6 +1100,14 @@
                 "id": "b553e3d0-2526-461b-92e9-e95756e673cf",
                 "resourcePath": "views\\db0e3208-e2a4-47ab-be34-e3f45a588315.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc094999-1aba-4618-b58d-992e47a3d549",
+            "Value": {
+                "id": "8249d375-4269-4154-a295-59fd9a28070b",
+                "resourcePath": "sprites\\spr_drone_boss\\spr_drone_boss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

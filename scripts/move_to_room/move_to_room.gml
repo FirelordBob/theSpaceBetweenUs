@@ -33,6 +33,11 @@ if(room == room1)
 		room_goto(room4)
 		y = 0
 	}
+	if(y < 0)
+	{
+		room_goto(room9)
+		y = room_height
+	}
 }
 if(room == room2)
 {
@@ -128,5 +133,33 @@ if(room == room8)
 	{
 		room_goto(room6)
 		x = room_width
+	}
+}
+if(room == room9)
+{
+	if(y < 0)
+	{
+		room_goto(room10)
+		y = room_height
+	}
+	if(y > room_height)
+	{
+		room_goto(room1)
+		y = 0
+	}
+}
+if(room == room10)
+{
+	if(y < 0)
+	{
+		with(all){
+			instance_destroy()
+		}
+		room_goto(roomPostGame)
+	}
+	if(y > room_height)
+	{
+		room_goto(room9)
+		y = 0
 	}
 }
