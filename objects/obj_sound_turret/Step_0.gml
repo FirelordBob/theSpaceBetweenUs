@@ -27,7 +27,8 @@ if(instance_exists(player) && distance_to_object(player) < range && !firing)
 			image_yscale = .3
 			image_angle = other.angle
 		}
-		
+		audio_play_sound(snd_sndcannon,99,0);
+
 	}
 }
 if(currentHealth <= 0 && alarm_get(1) == -1)

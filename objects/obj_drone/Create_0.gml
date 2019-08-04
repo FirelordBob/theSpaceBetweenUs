@@ -19,3 +19,5 @@ alarm_set(0,moveTimer)
 deathtimer = 60
 lastSpeed = 0
 range = 800
+
+dronehellosound = snd_dronesayshello

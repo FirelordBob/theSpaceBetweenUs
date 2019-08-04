@@ -37,6 +37,7 @@ if(instance_exists(player) && distance_to_object(player) < range && !firing)
 			image_yscale = .5
 			image_angle = other.angle + 15
 		}
+		audio_play_sound(snd_enemylazersuper,51,0);
 
 		
 	}

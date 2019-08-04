@@ -12,7 +12,24 @@ if(canIFire){
 		myBullet = instance_create_depth(x + cos(facing*pi/180)*(mySize),y - sin(facing*pi/180)*(mySize),depth-1,obj_blast);
 		myBullet.myGun = self;
 		myBullet.freeze = myPlayer.snakeFriend
+		if(myPlayer.gorillaFriend) {
+			if(audio_is_playing(snd_charge2)){
+				audio_stop_sound(snd_charge2);
+			}
+			audio_play_sound(snd_charge2,98,0)
+		} else if (myPlayer.elephantFriend){
+			if(audio_is_playing(snd_charge1)){
+				audio_stop_sound(snd_charge1);
+			}
+			audio_play_sound(snd_charge1,98,0)
+		} else {
+			if(!audio_is_playing(snd_firelazer)){
+				audio_play_sound(snd_firelazer,99,0)
+			}
+		}
+	
 	}
+
 	if(instance_exists(myBullet))
 	{
 		myBullet.image_xscale = gunPower/2.5;

@@ -7,6 +7,9 @@ if(bounce(obj_forcefield)) {
 		currentHealth--
 		invincible = 1;
 		alarm_set(1,invincibilityTimer)
+		if(!audio_is_playing(snd_gethit)){
+			audio_play_sound(snd_gethit,100,0)
+		}
 	}	
 }
 if newtFriend && newtStuck == 0 {
@@ -22,6 +25,10 @@ if(place_meeting(x,y,obj_explosion_severe)){
 		currentHealth--
 		invincible = 1;
 		alarm_set(1,invincibilityTimer)
+		if(!audio_is_playing(snd_gethit)){
+			audio_play_sound(snd_gethit,100,0)
+		}
+
 	}
 }
 speed = clamp(speed,0,maxSpeed)
@@ -40,6 +47,10 @@ if(bounce(obj_drone)) {
 		currentHealth--
 		invincible = 1;
 		alarm_set(1,invincibilityTimer)
+		if(!audio_is_playing(snd_gethit)){
+			audio_play_sound(snd_gethit,100,0)
+		}
+
 	}
 	speed = clamp(speed,2,maxSpeed)
 }

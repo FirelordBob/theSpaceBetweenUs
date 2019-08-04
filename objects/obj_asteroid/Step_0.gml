@@ -27,4 +27,6 @@ if(currentHealth <= 0 && alarm_get(1) = -1)
 		part_system_depth(myparticlesystem, -2 );
 		part_particles_create(myparticlesystem, x, y, particle1, 5);
 	}
+	
+	audio_play_sound(snd_asteroidexplode,150,0)
 }
