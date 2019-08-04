@@ -6,6 +6,7 @@ if(!collected)
 	
 	dialogue[0] = "It's an honor to make your acquaintance."
 	dialogue[1] = "I'll lend you my phenomenal strength"
+	dialogue[2] = "And help you demolish whatever is in your way"
 	name = "Gustaf"
 	spriteNum = 4
 }
