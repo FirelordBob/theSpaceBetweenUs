@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "8ef8c3d1-9602-4bcd-a32c-0fd32fb5b431",
+            "Value": {
+                "id": "07ffcdce-8c9a-424d-8373-5bc43592232b",
+                "resourcePath": "sounds\\snd_lazerdies\\snd_lazerdies.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "91b15abc-b608-40b1-b9a8-3c47e2b89e6b",
             "Value": {
                 "id": "169247ca-465c-4040-b431-cb3fcfa35678",
