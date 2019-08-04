@@ -2,7 +2,8 @@
 
 //Spin a bit
 
-angle += spinspeed;
+if(image_blend != c_blue)
+	angle += spinspeed;
 bounce(obj_forcefield);
 bounce(obj_ground);
 

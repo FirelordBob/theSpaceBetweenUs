@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var player
+var player = noone
 with(obj_player)
 	player = id
-if(distance_to_object(player) < range)
+if(instance_exists(player) && distance_to_object(player) < range)
 {
 	
 	angle = point_direction(x,y,player.x,player.y)

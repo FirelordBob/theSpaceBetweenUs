@@ -1,3 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_wrap(1,1,0)
+friendXOffset = []
+friendYOffset = []
+for(var i = 0; i < array_length_1d(friendArray); i++)
+{
+	friendXOffset[i] = x - friendArray[i].x
+	friendYOffset[i] = y - friendArray[i].y
+}
+
+move_to_room()
+alarm_set(2,1)

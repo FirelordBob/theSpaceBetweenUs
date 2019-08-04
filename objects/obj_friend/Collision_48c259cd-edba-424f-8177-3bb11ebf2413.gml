@@ -3,5 +3,7 @@
 if(!collected)
 {
 	collected = 1
-	other.friendArray[array_length_1d(other.friendArray)] = id
+	image_xscale = 1
+	image_yscale = 1
+	other.friendArray[array_length_1d(other.friendArray)] = object_index
 }

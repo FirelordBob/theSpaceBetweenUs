@@ -3,7 +3,7 @@
 currentX = x
 currentY = y
 invincible = 0;
-invincibilityTimer = 60;
+invincibilityTimer = 180;
 maxHealth = 10;
 currentHealth = maxHealth;
 friendArray = []
@@ -17,3 +17,5 @@ elephantFriend = 0;
 snakeFriend = 0;
 newtFriend = 0;
 newtStuck = 0;
+boss1Defeated = 0
+friction = .005
