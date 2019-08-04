@@ -21,6 +21,8 @@ dying = 0;
 
 explosionType = obj_explosion_severe
 
+asteroidBounceAmount = 0.05
+
 myparticlesystem = noone;
 particle1 = part_type_create();
 part_type_sprite(particle1, spr_asteroid, 0, 0, 1);

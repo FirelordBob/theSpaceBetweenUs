@@ -1,7 +1,7 @@
 
 //		  
-//room2 - room1 - room0
-//room3 - room4
+//room2 - room1 - room0 - room7
+//room3 - room4 - room5 - room6
 speed = clamp(speed, 1 ,2)
 if(room == room0)
 {
