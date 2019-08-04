@@ -28,5 +28,17 @@ if(instance_exists(myBullet)){
 	alarm_set(1,cooldownTimer);
 	room_speed = fullSpeed
 	
+	//Play sound
+	if(!audio_is_playing(snd_firelazer)){
+		audio_play_sound(snd_firelazer,99,0)
+	}
+	if(audio_is_playing(snd_charge1)){
+		audio_stop_sound(snd_charge1)
+	}
+	if(audio_is_playing(snd_charge2)){
+		audio_stop_sound(snd_charge2)
+	}
+
+
 
 }

@@ -36,7 +36,8 @@ if(instance_exists(player) && distance_to_object(player) < range && !firing)
 			image_yscale = .5
 			image_angle = other.angle
 		}
-		
+		audio_play_sound(snd_sndcannon,49,0);
+
 	}
 	else 
 		alarm_set(1,1)

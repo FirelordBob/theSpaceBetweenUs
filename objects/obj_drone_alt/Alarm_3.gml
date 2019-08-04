@@ -5,3 +5,4 @@ direction = irandom(360)
 speed = moveSpeed
 ready = 1
 firing = 0
+audio_play_sound(dronehellosound,101,0)

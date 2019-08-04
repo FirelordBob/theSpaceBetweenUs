@@ -18,4 +18,5 @@ if(!collected)
 			audio_sound_set_track_position(other.track,audio_sound_get_track_position(track))
 		}
 	}
+	audio_play_sound(snd_findafriend,2,0);
 }

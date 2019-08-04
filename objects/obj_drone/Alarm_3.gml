@@ -7,3 +7,4 @@ bullet.released = 1
 bullet = noone
 ready = 1
 firing = 0
+audio_play_sound(dronehellosound,101,0)

@@ -9,3 +9,4 @@ moveSpeed = 2.5
 speed = moveSpeed
 
 currentHealth = maxHealth
+dronehellosound = snd_drone2sayshello

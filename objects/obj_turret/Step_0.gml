@@ -26,6 +26,7 @@ if(instance_exists(player) && distance_to_object(player) < range)
 			image_yscale = .3
 			image_angle = other.angle
 		}
+		audio_play_sound(snd_enemylazer,50,0);
 		
 	}
 }
