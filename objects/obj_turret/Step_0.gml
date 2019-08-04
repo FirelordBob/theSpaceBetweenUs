@@ -7,7 +7,7 @@ if(instance_exists(player) && distance_to_object(player) < range)
 {
 	
 	angle = point_direction(x,y,player.x,player.y)
-	var dist = point_direction(x,y,player.x,player.y)
+	var dist = point_distance(x,y,player.x,player.y)
 	var vision = 1
 	for(var i = 0; i < dist; i+=8)
 	{	

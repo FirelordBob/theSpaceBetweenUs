@@ -28,6 +28,7 @@ if(device_mouse_x_to_gui(0) > display_get_gui_width()-40 && device_mouse_x_to_gu
 	{
 		lastRoom = room
 		alarm_set(1,2);
+		room_persistent = true
 		room_goto(roomPause)
 		with(obj_player)
 		{
@@ -42,10 +43,15 @@ if(device_mouse_x_to_gui(0) > display_get_gui_width()-40 && device_mouse_x_to_gu
 			speed = other.lastSpeed		
 			image_alpha = 1
 		}
+	
+	
 		with(obj_gun)
 		{
 			image_alpha = 1
 		}
+		room_goto(lastRoom)
+		alarm_set(1,3)
+		
 	
 	}
 		

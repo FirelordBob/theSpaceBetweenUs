@@ -4,3 +4,4 @@ deathtimer = 30;
 dying = 0;
 dyingflag = 0
 dieStrong = 0
+depth = 0

@@ -6,6 +6,7 @@ if(!collected)
 	dialogue[1] = "You're the best at hide and seek!"
 
 	name = "Abarrane"	
+	depth = -5
 }
 // Inherit the parent event
 event_inherited();

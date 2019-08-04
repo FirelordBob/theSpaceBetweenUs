@@ -20,3 +20,4 @@ newtStuck = 0;
 boss1Defeated = 0
 boss2Defeated = 0
 friction = .006
+depth = -5

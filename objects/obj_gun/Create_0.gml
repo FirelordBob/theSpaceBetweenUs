@@ -9,7 +9,7 @@ cooldownTimer = 30;
 fullSpeed = room_speed
 halfSpeed = room_speed*.75
 gunPower = gunPowerMinimum;
-
+depth = -6
 myBullet = noone;
 
 alarm_set(0,1);

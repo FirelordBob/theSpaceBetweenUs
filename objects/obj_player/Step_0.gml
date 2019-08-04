@@ -32,7 +32,9 @@ with(obj_barrier)
 
 if(barrier)
 	bounce(obj_barrier)
-
+	
+bounce(obj_turret)
+bounce(obj_sound_turret)
 if(bounce(obj_drone)) {
 	if(!invincible){
 		currentHealth--
