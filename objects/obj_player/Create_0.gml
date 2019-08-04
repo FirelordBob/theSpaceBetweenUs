@@ -7,7 +7,7 @@ invincibilityTimer = 180;
 maxHealth = 10;
 currentHealth = maxHealth;
 friendArray = []
-maxSpeed = 4
+maxSpeed = 5
 
 gorillaFriend = 0;
 turtleFriend = 0;
@@ -18,4 +18,4 @@ snakeFriend = 0;
 newtFriend = 0;
 newtStuck = 0;
 boss1Defeated = 0
-friction = .005
+friction = .007
