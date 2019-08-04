@@ -27,7 +27,7 @@ for(var i=0; i<diameter/2; i++) {
     // draw
     if(i != 0) 
 	{
-		draw_line(lastX, lastY, dx3, dy3);	
+		draw_line_width(lastX, lastY, dx3, dy3,1.5);	
 	}
 	if(position_meeting(lastX,lastY,obj_player) && !hit)
 		{

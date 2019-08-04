@@ -6,9 +6,8 @@ gunPowerMinimum = 0.5;
 mySize = 16
 canIFire = 1;
 cooldownTimer = 30;
-bonusSpeed = room_speed*1.5
 fullSpeed = room_speed
-halfSpeed = room_speed*.7
+halfSpeed = room_speed*.75
 gunPower = gunPowerMinimum;
 
 myBullet = noone;
