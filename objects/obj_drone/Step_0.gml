@@ -11,4 +11,6 @@ if(currentHealth <= 0 && alarm_get(2) == -1)
 			delay = irandom_range(0,60)
 	}
 	alarm_set(2,deathtimer)	
+	audio_play_sound(snd_dronedestroy1,110,0);
+	audio_play_sound(snd_dronedestroy2,110,0);
 }
