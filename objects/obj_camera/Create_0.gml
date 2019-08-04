@@ -6,4 +6,4 @@ with(obj_player)
 	other.x = x
 	other.y = y
 }
-range = 150
+range = 100

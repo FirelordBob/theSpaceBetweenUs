@@ -7,4 +7,4 @@ if(!collected)
 	image_yscale = 2
 }
 
-audio_sound_set_track_position(track,audio_sound_get_track_position(player.track))
+//audio_sound_set_track_position(track,audio_sound_get_track_position(player.track))
