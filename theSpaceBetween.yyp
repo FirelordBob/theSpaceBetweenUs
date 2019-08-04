@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "10ed3893-da06-4590-9eed-b3a7508942fa",
+            "Value": {
+                "id": "7ea8e07b-f379-4356-bcf5-5391b2249a12",
+                "resourcePath": "sounds\\snd_turretdestroy\\snd_turretdestroy.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "142b599d-d3d0-4e94-9174-7e8302d9bd3c",
             "Value": {
                 "id": "38613bb3-988f-4076-83d8-477f1dd0a3b2",
@@ -196,6 +204,14 @@
                 "id": "8d67d5e0-d0be-44e0-a25d-5cc73bf2e409",
                 "resourcePath": "sprites\\spr_forcefield_disabled\\spr_forcefield_disabled.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f02ab63-1342-4c5c-a9d3-50640ebd56c8",
+            "Value": {
+                "id": "b23ae87a-104c-46f1-98ed-65d93317a4df",
+                "resourcePath": "sounds\\snd_dronedestroy1\\snd_dronedestroy1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -500,6 +516,14 @@
                 "id": "227f9751-d95c-4cae-b015-0fd95e7394e6",
                 "resourcePath": "sprites\\spr_robogazelle\\spr_robogazelle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f7eb4f1-18bb-4e8d-aa6b-2c8a25b6b236",
+            "Value": {
+                "id": "9eb32df1-1ce4-462c-8784-779430c929e3",
+                "resourcePath": "sounds\\snd_dronedestroy2\\snd_dronedestroy2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

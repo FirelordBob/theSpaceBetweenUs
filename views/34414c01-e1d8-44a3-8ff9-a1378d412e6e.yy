@@ -18,7 +18,10 @@
         "de485901-85c7-41e8-b9d0-a6f5cee33f16",
         "142b599d-d3d0-4e94-9174-7e8302d9bd3c",
         "81dd8094-9f51-47d3-8984-6e8db73ef203",
-        "8ef8c3d1-9602-4bcd-a32c-0fd32fb5b431"
+        "8ef8c3d1-9602-4bcd-a32c-0fd32fb5b431",
+        "10ed3893-da06-4590-9eed-b3a7508942fa",
+        "1f02ab63-1342-4c5c-a9d3-50640ebd56c8",
+        "4f7eb4f1-18bb-4e8d-aa6b-2c8a25b6b236"
     ],
     "filterType": "GMSound",
     "folderName": "FX",
