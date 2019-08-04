@@ -9,8 +9,8 @@ if(instance_exists(myBullet)){
 	hspeed += hspeedChange;
 
 	//Change player speed
-	myPlayer.vspeed += vspeedChange*1.5;
-	myPlayer.hspeed += hspeedChange*1.5;
+	myPlayer.vspeed += vspeedChange*1.25;
+	myPlayer.hspeed += hspeedChange*1.25;
 
 	//Change bullet speed
 	myBullet.vspeed -= 4*(sin(facing*pi/180));
@@ -26,4 +26,5 @@ if(instance_exists(myBullet)){
 	//Set cooldown timer
 	canIFire = 0;
 	alarm_set(1,cooldownTimer);
+	room_speed = halfSpeed*1.5
 }

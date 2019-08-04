@@ -3,7 +3,7 @@ if dyingflag && !dying{
 	with obj_player{
 		myPlayer = self;
 	}
-	if myPlayer.gorillaFriend {
+	if dieStrong {
 		alarm_set(0,deathtimer);
 		dying = 1;
 	} else {

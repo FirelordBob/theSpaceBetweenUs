@@ -13,5 +13,8 @@ mySpeed = 1
 
 currentX = x
 currentY = y
-
+radius = 32
 collected = 0
+depth = -5
+image_xscale = 2
+image_yscale = 2

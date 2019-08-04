@@ -32,9 +32,9 @@ for(var i=0; i<diameter/2; i++) {
 	if(position_meeting(lastX,lastY,obj_player) && !hit)
 		{
 			with(obj_player)
-				motion_add(other.direction,other.moveSpeed)
+				motion_add(other.direction,other.moveSpeed/4)
 			hit = 1
-			alarm_set(0,20)
+			alarm_set(0,10)
 		}
 	if(position_meeting(lastX,lastY,obj_friend))
 		with(instance_position(lastX,lastY,obj_friend))

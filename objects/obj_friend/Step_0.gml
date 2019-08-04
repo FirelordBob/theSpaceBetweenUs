@@ -10,5 +10,7 @@ gravity_direction = point_direction(x,y,player.x +lengthdir_x(targetDist,playerD
 
 if(speed > 2)
 	speed = 2
-	
+
+if(radius >0 )
+	radius-=.25
 }

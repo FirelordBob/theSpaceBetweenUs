@@ -5,8 +5,8 @@ gunPowerMaximum = 1;
 gunPowerMinimum = 0.5;
 mySize = 16
 canIFire = 1;
-cooldownTimer = 40;
-
+cooldownTimer = 20;
+halfSpeed = room_speed*.75
 gunPower = gunPowerMinimum;
 
 myBullet = noone;
