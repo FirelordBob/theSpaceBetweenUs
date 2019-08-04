@@ -8,7 +8,7 @@ if !instance_exists(myGun){
 			with other {
 				dyingflag = 1;
 			}
-			if damage >= 10
+			if damage >= 11
 				with other 
 					dieStrong = 1
 		}

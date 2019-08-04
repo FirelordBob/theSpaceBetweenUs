@@ -15,7 +15,7 @@ speedMax = 1
 hspeed = random_range(-speedMax,speedMax);
 vspeed = random_range(-speedMax,speedMax);
 deathtimer = 60
-maxHealth = 10
+maxHealth = 11
 currentHealth = maxHealth
 dying = 0;
 

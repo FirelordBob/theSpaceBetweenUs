@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "574b3c90-773a-48a5-84fa-13835a63506a",
+            "Value": {
+                "id": "707a373f-c3a3-4f9d-956e-627b452bf513",
+                "resourcePath": "objects\\obj_drone_alt\\obj_drone_alt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57b16f0e-9c0f-4b99-b75f-2b6acf0c9a6d",
             "Value": {
                 "id": "59a254c2-966c-4f1a-a3af-ef34ce6479f7",
@@ -436,6 +444,14 @@
                 "id": "25656b80-a368-4d62-8f70-6596a28ec7df",
                 "resourcePath": "rooms\\room8\\room8.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "716003fd-a530-47b3-bee8-212716760ca5",
+            "Value": {
+                "id": "49e7a89b-45c2-442a-a9da-2dad5f790354",
+                "resourcePath": "sprites\\spr_drone_alt\\spr_drone_alt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
