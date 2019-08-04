@@ -7,6 +7,7 @@ if(!collected)
 	dialogue[0] = "It's an honor to make your acquaintance."
 	dialogue[1] = "I'll lend you my phenomenal strength"
 	name = "Gustaf"
+	spriteNum = 4
 }
 // Inherit the parent event
 event_inherited();

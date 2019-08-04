@@ -15,3 +15,4 @@ collected = 1
 depth = -5
 dialogue = []
 name = ""
+spriteNum = -1

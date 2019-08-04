@@ -18,6 +18,7 @@ if(!collected)
 	dialogue[9] = "you"
 	
 	name = "Tabitha"
+	spriteNum = 2
 }
 // Inherit the parent event
 event_inherited();

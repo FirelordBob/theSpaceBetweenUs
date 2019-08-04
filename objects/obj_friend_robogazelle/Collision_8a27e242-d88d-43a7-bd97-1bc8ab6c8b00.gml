@@ -7,6 +7,7 @@ if(!collected)
 
 	
 	name = "Greg"
+	spriteNum = 3
 }
 // Inherit the parent event
 event_inherited();

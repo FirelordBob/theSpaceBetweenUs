@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "46b4624c-0913-4eb8-a135-cd4e78391cb6",
+            "Value": {
+                "id": "3bcb2f6e-2979-457d-9e1d-d66dc1e48cd8",
+                "resourcePath": "sprites\\spr_critters\\spr_critters.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47c3037c-e0e8-45e1-9caf-4c37b714fa33",
             "Value": {
                 "id": "e63d3dcb-29df-4304-9e9e-27e4153a089a",

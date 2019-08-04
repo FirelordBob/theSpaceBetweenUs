@@ -15,6 +15,8 @@ draw_sprite(sprite_index,2,xx+sprite_width*(dialogueWidth + 1),yy)
 draw_set_color(c_dkgray)
 if(dialogueWidth == dialogueMaxWidth && dialogueCount < array_length_1d(dialogue))
 {
+	if(spriteNum != -1)
+		draw_sprite(spr_critters,spriteNum,xx,yy)
 	draw_set_font(font0)
 	
 	draw_set_halign(fa_left)

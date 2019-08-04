@@ -27,4 +27,6 @@ if(instance_exists(myBullet)){
 	canIFire = 0;
 	alarm_set(1,cooldownTimer);
 	room_speed = fullSpeed
+	
+
 }

@@ -10,6 +10,7 @@ if(!collected)
 	{
 		dialogue = other.dialogue
 		name = other.name
+		spriteNum = other.spriteNum
 	}
 	if (!audio_is_playing(song)){
 		track = audio_play_sound(song,1,1);

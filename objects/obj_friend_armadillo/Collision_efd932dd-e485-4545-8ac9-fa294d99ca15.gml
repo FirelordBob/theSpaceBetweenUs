@@ -7,6 +7,7 @@ if(!collected)
 
 	name = "Abarrane"	
 	depth = -5
+	spriteNum = 0
 }
 // Inherit the parent event
 event_inherited();
