@@ -15,7 +15,7 @@ if(instance_exists(player) && distance_to_object(player) < range && !firing)
 		if(position_meeting(x + lengthdir_x(i,angle),y + lengthdir_y(i,angle),obj_ground))
 			vision = 0
 	}
-	if(ready && vision)
+	if(ready && vision && currentHealth > 0)
 	{
 		ready = 0
 		firing = 1

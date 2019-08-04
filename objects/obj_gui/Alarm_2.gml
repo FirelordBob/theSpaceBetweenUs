@@ -8,6 +8,7 @@ if(room != roomPause)
 		room_goto(roomPause)
 		instance_deactivate_object(obj_dialogue)
 		audio_pause_all()
+		audio_play_sound(snd_pause,0,1)
 		with(obj_player)
 		{
 			other.lastSpeed = speed
@@ -29,6 +30,7 @@ if(room != roomPause)
 		}
 		room_goto(lastRoom)
 		alarm_set(1,3)
+		audio_stop_sound(snd_pause)
 		audio_resume_all()
 	
 	}
