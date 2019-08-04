@@ -22,7 +22,7 @@ else
 }
 	
 
-if(device_mouse_x_to_gui(0) > display_get_gui_width()-40 && device_mouse_x_to_gui(0) < display_get_gui_width()-20 && device_mouse_y_to_gui(0) > 20 && device_mouse_y_to_gui(0) < 40 && mouse_check_button_released(mb_left))
+if(device_mouse_x_to_gui(0) > display_get_gui_width()-60 && device_mouse_x_to_gui(0) < display_get_gui_width() && device_mouse_y_to_gui(0) > 20 && device_mouse_y_to_gui(0) < 60 && mouse_check_button_released(mb_left))
 {
 	alarm_set(2,1)
 		
