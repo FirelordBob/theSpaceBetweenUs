@@ -114,7 +114,7 @@ if(room == room7)
 	if(y > room_height)	
 	{
 		room_goto(room6)
-		y = room_height
+		y = 0
 	}
 	if(x < 0)	
 	{

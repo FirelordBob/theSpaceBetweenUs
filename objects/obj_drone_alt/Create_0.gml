@@ -5,4 +5,7 @@
 event_inherited();
 
 maxHealth = 100
+moveSpeed = 2.5
+speed = moveSpeed
+
 currentHealth = maxHealth
