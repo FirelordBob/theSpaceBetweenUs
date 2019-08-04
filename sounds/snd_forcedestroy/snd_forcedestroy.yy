@@ -1,8 +1,8 @@
 {
-    "id": "1f02ab63-1342-4c5c-a9d3-50640ebd56c8",
+    "id": "fe226afc-e728-4089-98df-db40a1434192",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_dronedestroy1",
+    "name": "snd_forcedestroy",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
