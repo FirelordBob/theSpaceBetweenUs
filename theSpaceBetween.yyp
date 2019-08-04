@@ -991,6 +991,14 @@
             }
         },
         {
+            "Key": "c2b23337-6b5d-448c-bc79-3fac6a70961a",
+            "Value": {
+                "id": "ecd10362-05c3-4b6a-8e5c-a2968b051e2b",
+                "resourcePath": "objects\\obj_exit_game_button\\obj_exit_game_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb0f9092-c5e2-418e-b989-fe9e55b2c0a3",
             "Value": {
                 "id": "5babfeae-9e04-4451-816b-b1024172ef47",
@@ -1204,6 +1212,22 @@
                 "id": "dd3492a9-26ea-4c14-ae91-f81be73a2aae",
                 "resourcePath": "objects\\obj_gui\\obj_gui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fbaf656e-9579-4741-90a3-687368c4fc4f",
+            "Value": {
+                "id": "c5ae54fa-b2b2-4ffa-a394-df67ec77ddf0",
+                "resourcePath": "sounds\\snd_forcecreate\\snd_forcecreate.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fe226afc-e728-4089-98df-db40a1434192",
+            "Value": {
+                "id": "6a8271ad-d287-43b4-ae38-820ead209692",
+                "resourcePath": "sounds\\snd_forcedestroy\\snd_forcedestroy.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -7,4 +7,5 @@ if(place_meeting(x,y,obj_blast) && player.roboGazelleFriend)
 {
 	instance_destroy()	
 	instance_create_depth(x,y,depth-1,obj_forcefield_disabled)
+	audio_play_sound(snd_forcedestroy,100,0);
 }

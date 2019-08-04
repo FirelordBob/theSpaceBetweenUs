@@ -21,7 +21,9 @@
         "8ef8c3d1-9602-4bcd-a32c-0fd32fb5b431",
         "10ed3893-da06-4590-9eed-b3a7508942fa",
         "1f02ab63-1342-4c5c-a9d3-50640ebd56c8",
-        "4f7eb4f1-18bb-4e8d-aa6b-2c8a25b6b236"
+        "4f7eb4f1-18bb-4e8d-aa6b-2c8a25b6b236",
+        "fbaf656e-9579-4741-90a3-687368c4fc4f",
+        "fe226afc-e728-4089-98df-db40a1434192"
     ],
     "filterType": "GMSound",
     "folderName": "FX",
