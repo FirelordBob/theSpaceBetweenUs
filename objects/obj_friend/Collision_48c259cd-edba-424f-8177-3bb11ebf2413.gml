@@ -11,4 +11,10 @@ if(!collected)
 		dialogue = other.dialogue
 		name = other.name
 	}
+	if (!audio_is_playing(song)){
+		track = audio_play_sound(song,1,1);
+		with player {
+			audio_sound_set_track_position(other.track,audio_sound_get_track_position(track))
+		}
+	}
 }

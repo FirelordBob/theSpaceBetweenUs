@@ -3,6 +3,7 @@
 currentX = x
 currentY = y
 
-with(obj_player)
-	if(boss1Defeated)
-		instance_destroy(other)
+if(boss)
+	with(obj_player)
+		if(boss1Defeated)
+			instance_destroy(other)

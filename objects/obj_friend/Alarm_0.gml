@@ -5,8 +5,11 @@ if(!collected)
 	radius = 32
 	image_xscale = 2
 	image_yscale = 2
-}
-
-with player {
-	sg[array_length_1d(sg)] = audio_play_in_sync_group(audiogroup, snd_elephant);
+} else {
+	if(!audio_is_playing(song)){
+		track = audio_play_sound(song,1,1);
+		with player {
+			audio_sound_set_track_position(other.track,audio_sound_get_track_position(track))
+		}
+	}
 }
